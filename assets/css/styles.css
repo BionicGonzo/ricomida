@@ -1,0 +1,125 @@
+/* BODY */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+}
+
+/* NAVEGACIÓN */
+
+nav {
+    background-color: #373A3C;
+}
+
+nav .navbar-brand {
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+}
+
+/* HEADER */
+
+.cabecera {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.cabecera p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cabecera button {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* CARRUSEL... CARRUSEL DE NIÑOS... */
+
+.carousel-item img {
+    padding: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.carousel-indicators {
+    bottom: -25px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #373A3C;
+}    
+
+/* CONTENIDO PRINCIPAL */
+
+.receta p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.receta b {
+    cursor: pointer;
+}
+
+/* CONTENIDO SECUNDARIO */
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.articulos h3 {
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.articulos p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* NEWSLETTER */
+
+.newsletter h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.newsletter p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.newsletter span {
+    font-family: 'Lobster', sans-serif;
+}
+
+/* FOOTER */
+
+footer a { 
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* OTROS */
+
+@media (max-width: 767.98px) {
+    .text-buttons {
+        text-align: center;
+    }
+}
+
